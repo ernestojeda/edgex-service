@@ -9,7 +9,7 @@ class Service:
     This function thinks your smile looks great
     '''
     def smile(self, name):
-        print(f"{name}, thanks for the smile")
+        print(f"{name}, your smile is great")
 
 '''
 This will start the service
