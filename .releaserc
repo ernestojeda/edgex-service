@@ -2,12 +2,10 @@ branches:
   - main
   - name: dev
     prerelease: true
-dryRun: true
+dryRun: false
 plugins:
   - "@semantic-release/commit-analyzer"
-  - "@semantic-release/release-notes-generator"
   - - "@semantic-release/changelog"
-    - changelogFile: CHANGELOG.md
   - - "@semantic-release/git"
     - assets:
       - CHANGELOG.md
