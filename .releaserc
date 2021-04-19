@@ -1,6 +1,8 @@
 branches:
-  - main
-  - name: dev
+  - ireland
+  - hanoi
+  - geneva
+  - name: main
     prerelease: true
 dryRun: false
 plugins:
