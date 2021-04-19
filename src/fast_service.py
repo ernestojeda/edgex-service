@@ -3,7 +3,7 @@ class FastService:
     This service does stuff fast
     '''
     def fast(self, name):
-        print(f'Going really fast for {name}')
+        print(f'Going really super fast for {name}. Like for real.')
 
 
 '''
