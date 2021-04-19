@@ -2,7 +2,7 @@ class FastService:
     '''
     This service does stuff super fast
     '''
-    def fast(self, name):
+    def super_fast(self, name):
         print(f'Going really super fast for {name}. Like for real.')
 
 
@@ -13,4 +13,4 @@ if __name__ == "__main__":
     print("Starting up your fast service...")
 
     fs = FastService()
-    fs.fast('you')
+    fs.super_fast('you')
