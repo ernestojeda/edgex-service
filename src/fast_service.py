@@ -1,6 +1,6 @@
 class FastService:
     '''
-    This service does stuff fast
+    This service does stuff super fast
     '''
     def fast(self, name):
         print(f'Going really super fast for {name}. Like for real.')
