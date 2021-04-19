@@ -3,7 +3,7 @@ branches:
   - hanoi
   - geneva
   - name: main
-    prerelease: true
+    prerelease: 'dev'
 dryRun: false
 plugins:
   - "@semantic-release/commit-analyzer"
